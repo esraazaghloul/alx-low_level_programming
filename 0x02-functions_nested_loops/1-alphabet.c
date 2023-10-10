@@ -12,15 +12,10 @@
 
 int main(void)
 {
-	print_alphabet();
+	char c = 'a';
+
+	for (c = 'a'; c <= 'z'; c++)
+	write(1, &c, 1);
+	write(1, "\n", 1);
 	return (0);
-}
-
-void print_alphabet(void)
-{
-        char c = 'a';
-
-        for (c = 'a'; c <= 'z'; c++)
-        write(1, &c, 1);
-        write(1, "\n", 1);
 }
