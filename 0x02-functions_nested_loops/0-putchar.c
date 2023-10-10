@@ -13,9 +13,10 @@
 int main(void)
 {
 	char str[] = "_putchar\n";
-	for (int i = 0; str[i] != '\0'; i++)
+	int i = 0;
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		 write(1, &str[i], 1);
 	};
-	Return 0;
+	return 0;
 }
