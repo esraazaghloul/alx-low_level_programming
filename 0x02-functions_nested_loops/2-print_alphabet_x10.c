@@ -10,12 +10,12 @@
  * Return: Always 0 (Success)
 */
 
-int main(void)
+int main()
 {
 	char c = 'a';
 	int i = 1;
 
-	for (i <= 10 ; i++)
+	for (i <= 10)
 	{
 	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
