@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** more headers goes there
- * main: Entry point
+/**
+ * main - Entry point
  *
  * Description : C program to print rndm num type
  *
