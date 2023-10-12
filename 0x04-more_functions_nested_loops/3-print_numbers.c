@@ -5,8 +5,8 @@
  *
  * Description: A C program
  *
- * Return: void
- */
+ * Return: Always 0
+*/
 
 void print_numbers(void)
 {
