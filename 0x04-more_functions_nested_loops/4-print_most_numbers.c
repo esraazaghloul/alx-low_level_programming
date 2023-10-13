@@ -12,9 +12,9 @@ void print_most_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		if (num == 2 || num == 4)
+		if (i == 2 || i == 4)
 			continue;
-		_putchar(num + 48);
+		_putchar(i + 48);
 	}
 	_putchar('\n');
 }
