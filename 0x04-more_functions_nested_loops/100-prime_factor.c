@@ -3,6 +3,8 @@
 /**
  * largest_prime_factor - find the largest prime factor
  *
+ * @n: variable
+ *
  * Return: the largest prime factor of n
 */
 
