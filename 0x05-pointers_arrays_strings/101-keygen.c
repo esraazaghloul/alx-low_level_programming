@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i;
-	char password;
+	char password[9];
 
 	srand(time(NULL));
 
