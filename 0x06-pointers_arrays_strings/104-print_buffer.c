@@ -29,12 +29,12 @@ void print_buffer(char *b, int size)
 		for (j = 0; j < 10; j++)
 		{
 			if (i + j < size)
-				{
-					if (b[i + j] < 32 || b[i + j] > 126)
-						_putchar('.');
-					else
-						_putchar(b[i + j]);
-				}
+			{
+				if (b[i + j] < 32 || b[i + j] > 126)
+					_putchar('.');
+				else
+					_putchar(b[i + j]);
+			}
 		}
 	_putchar('\n');
 	}
