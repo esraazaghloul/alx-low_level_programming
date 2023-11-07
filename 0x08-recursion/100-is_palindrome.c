@@ -52,9 +52,9 @@ int palindrome_helper(char *s, int start, int end)
 
 int str_len(char *s)
 {
-    if (*s == '\0')
-    {
-        return (0);
-    }
-    return (1 + str_len(s + 1));
+	if (*s == '\0')
+	{
+		return (0);
+	}
+	return (1 + str_len(s + 1));
 }
