@@ -6,7 +6,7 @@
  * @n: number to find the square root of
  *
  * Return: natural square root of n, or -1 if n does not have a natural square root
- */
+*/
 
 int _sqrt_recursion(int n)
 {
@@ -35,6 +35,7 @@ int _sqrt_recursion(int n)
  *
  * Return: natural square root of n, or -1 if n does not have a natural square root
 */
+
 int _sqrt_helper(int n, int min, int max)
 {
 	int mid;
