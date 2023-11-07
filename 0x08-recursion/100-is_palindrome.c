@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-return (palindrome_helper(s, 0, _strlen_recursion(s) - 1));
+return (palindrome_helper(s, 0, str_len(s) - 1));
 }
 
 /**
@@ -40,4 +40,21 @@ int palindrome_helper(char *s, int start, int end)
 		return (0);
 	}
 	return (palindrome_helper(s, start + 1, end - 1));
+}
+
+/**
+ * str_len - returns the length of a string
+ *
+ * @s: string to measure
+ *
+ * Return: length of s
+*/
+
+int str_len(char *s)
+{
+    if (*s == '\0')
+    {
+        return (0);
+    }
+    return (1 + str_len(s + 1));
 }
