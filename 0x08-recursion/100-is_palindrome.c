@@ -10,7 +10,12 @@
 
 int is_palindrome(char *s)
 {
-	int len = _strlen_recursion(s);
+	int len = 0;
+
+	while (s[len] != '\0')
+	{
+		len++;
+	}
 
 	if (len <= 1)
 	{
