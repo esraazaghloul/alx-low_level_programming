@@ -7,13 +7,12 @@
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0 on success, 1 if the number of arguments is incorrect,
- *         2 if the number of bytes is negative
+ * Return: always 0.
 */
 
 int main(int argc, char **argv)
 {
-	char *p - (char *)main;
+	char *p = (char *)main;
 	int b;
 
 	if (argc != 2)
